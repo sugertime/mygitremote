@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册页面</title>
+		<style text="text/css">
+			div{
+				border:1px solid #BBF;
+			}
+			input{
+				border:1px solid #BBF;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">用户注册页面</h1>
+		<div>
+			<form action="UserRegisterServlet" method="post" enctype="multipart/form-data" align="center">
+				姓名：<input type="text" name="uname"/><br/>
+				密码：<input type="password" name="upwd"/><br/>
+				上传相片：<input type="file" name="uphoto"/><br/>
+				<input type="submit" value="注册">
+			</form>
+		</div>
+	</body>
+</html>
